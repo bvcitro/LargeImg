@@ -2,7 +2,7 @@ var imagez;
 $(document).ready(function(){ // ensures this doesnt run until the image is loaded
   imagez = document.getElementById("divmyImg"); // gets the div holding the image
   if (imagez===null) {
-      alert("Image Null :(");
+      //alert("Image Null :(");
       document.getElementById('divone').style.display = "none";// if there is no image, does not display button  
   }else{// if images null end
        imagez = imagez.firstElementChild.src; // get the element holding the image url

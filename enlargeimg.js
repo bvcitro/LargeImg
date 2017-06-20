@@ -1,7 +1,7 @@
 var imagez;
 $(document).ready(function(){ // ensures this doesnt run until the image is loaded
-  alert(imagez.src);
   imagez = document.getElementById("divmyImg"); // gets the div holding the image
+  alert(imagez.src);
     if (imagez===null) {
       document.getElementById('divone').style.display = "none";// if there is no image, does not display button  
     }else{// if images null end
